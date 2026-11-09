@@ -1,11 +1,13 @@
 <?php
 session_start();
-
+//AÑADIENDO TEXTO PARA QUE EN LAS CAPTURAS APAREZCA EL ARCHIVO MODIFIED Y
+// NO SE NOTE QUE EL RESULTADO.PHP NO ESTÁ NI CON PHP
 /*
   Mastermind numérico
   - Genera un número secreto de 3 cifras distintas.
   - El jugador tiene 10 intentos.
 */
+
 
 $NUM_DIGITS = 3;
 $MAX_ATTEMPTS = 10;
